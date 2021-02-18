@@ -1,3 +1,3 @@
-# leetcodesweetcodegottabeatmymeatcode
+# leetcodesweetcode
 # algos
 # algos
