@@ -1,3 +1,11 @@
+/**
+ * What is the runtime for this function?
+ * Well when we look at the for loop, it's iterating through every element in this array: O(n)
+ * But quick sort func itself is getting called log(n) times (n/(2^k))
+ * So n*log(n) = nlog(n)
+ * @param {*} arr 
+ */
+
 function quickSort(arr) {
     if (arr.length <= 1) return arr // base case just return array
     //set first element as pivot
